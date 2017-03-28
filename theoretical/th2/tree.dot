@@ -1,0 +1,43 @@
+digraph{
+node [shape=circle,style=filled,color="black",fontcolor="white"];
+19[color="firebrick1"]
+79 -> 35
+79 -> r[style="dotted"]
+35 -> 19
+35 -> 49
+19 -> 10
+19 -> 22
+10 -> 4
+10 -> 13
+22 -> 20
+22 -> 33
+
+49 -> 39
+49 -> 55
+null1 [label="x",shape=square,style=filled,color="black",fontcolor="white",size="2,2"];
+null2 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null3 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null4 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null5 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null6 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null7 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null8 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null9 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null10 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null11 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+null12 [label="x",shape=square,style=filled,color="black",fontcolor="white"];
+
+4 -> null1
+4 -> null2
+13 -> null3
+13 -> null4
+20 -> null5
+20 -> null6
+33 -> null7
+34[color="firebrick1"]
+33 -> 34
+34 -> null8
+34 -> null12
+39 -> null9
+39 -> null10
+55 -> null11}
